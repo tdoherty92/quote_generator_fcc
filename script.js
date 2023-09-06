@@ -109,6 +109,9 @@ class Quote extends React.Component {
     let ahref = ["https://twitter.com/intent/tweet?text=", this.props.quote];
     return ahref.join("");
   }
+
+// in future I'd like a static image or M.A. or another classic rather than randomColour
+
   render() {
     const randomColor = this.props.displayColor();
     const html = document.documentElement;
@@ -140,8 +143,6 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// const element = document.getElementById("root");
-// ReactDOM.render(<RandomQuoteGenerator title="StoicQuote" />, element);
 
 // !! IMPORTANT README:
 
@@ -166,7 +167,3 @@ INSTRUCTIONS:
     you should get helpful errors 
     along the way!
     ************/
-
-// PLEASE NOTE: Adding global style rules using the * selector, or by adding rules to body {..} or html {..}, or to all elements within body or html, i.e. h1 {..}, has the potential to pollute the test suite's CSS. Try adding: * { color: red }, for a quick example!
-
-// Once you have read the above messages, you can delete all comments.
