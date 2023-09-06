@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  background: grey;
+  vertical-align: center;
+  margin-top: 50px;
+}
+
+.content {
+  width: 500px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 2px 2px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+.checkbox:hover {
+  color: white;
+}
